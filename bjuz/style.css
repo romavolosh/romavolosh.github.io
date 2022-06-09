@@ -1,0 +1,92 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: center !important;
+    align-items: center;
+}
+
+/* .nav-item .nav-link {
+    color: blue !important;
+} */
+
+.logo {
+    width: 75%;
+    padding-top: 14px;
+}
+
+
+.d-block {
+    width: 100%;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.dropdown-menu {
+    transition: 0.3s;
+}
+
+.item-shop-1 {
+    background-image: url(img/item-shop-1.jpeg);
+    height: 250px;
+    width: 400px;
+    background-position: 100%;
+}
+
+.item-shop-2 {
+    background-image: url(img/item-shop-2.jpg);
+    height: 250px;
+    width: 400px;
+    background-position: 100%;
+}
+
+.item-shop-3 {
+    background-image: url(img/item-shop-3.jpg);
+    height: 250px;
+    width: 400px;
+    background-position: 100%;
+}
+
+.shop-items {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.shop-item {
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+.item-link {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+
+footer {
+    background-color: rgba(173, 216, 230, 0.31);
+    border-top: 1px lightblue solid;
+}
+
+.footer-text {
+    padding-top: 10px;
+    line-height: 1px;
+}
